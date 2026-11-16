@@ -38,5 +38,5 @@
   try { saved = localStorage.getItem(KEY); } catch (e) {}
   window.I18N_T = t;
   window.I18N_apply = apply;
-  apply(saved || "en");
+  apply(saved || "fr");
 })();
